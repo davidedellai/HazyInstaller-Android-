@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" >
+
+    <item
+         android:id="@+id/stop_service"
+         android:title="@string/stop_service"
+         android:orderInCategory="100"
+         android:showAsAction="never"/>
+
+    <item android:id="@+id/rom_features"
+          android:title="@string/features"
+          android:orderInCategory="100"
+          android:showAsAction="never"/>
+
+    <item android:id="@+id/action_about"
+        android:title="@string/about"
+        android:orderInCategory="100"
+        android:showAsAction="never"/>
+
+    <item android:id="@+id/help_us"
+          android:title="@string/help_us"
+          android:orderInCategory="100"
+          android:showAsAction="never"/>
+
+    <item android:id="@+id/action_update"
+          android:icon="@drawable/refresh"
+          android:title="@string/update"
+          android:showAsAction="ifRoom"  />
+
+</menu>

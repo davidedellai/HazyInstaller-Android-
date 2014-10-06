@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+        <item name="android:icon">@drawable/logohi</item>
+        <item name="android:logo">@drawable/logohi</item>
+    </style>
+
+    <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
+        <item name="android:background">@android:color/holo_green_light</item>
+    </style>
+
+</resources>

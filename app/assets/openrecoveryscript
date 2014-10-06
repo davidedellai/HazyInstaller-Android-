@@ -1,0 +1,5 @@
+print "Starting wipe..."
+wipe data
+wipe cache
+print "### INSTALLING HAZY ROM ###"
+install /sdcard/HazyROM.zip

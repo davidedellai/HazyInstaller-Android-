@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">  HazyInstaller</string>
+    <string name="features">Caratteristiche della ROM</string>
+    <string name="title_activity_features">Caratteristiche della HazyROM</string>
+    <string name="downloadandinstall">        Scarica e installa la Hazy ROM</string>
+    <string name="about">Informazioni</string>
+    <string name="notsupported">Dispositivo non supportato.</string>
+    <string name="title_activity_congratulation">Congratulazioni</string>
+    <string name="error">Errore</string>
+    <string name="notrooted">Permessi di root non presenti su questo dispositivo.</string>
+    <string name="romfeatures">\n\n-HRecents\n -Volume Rocker\n -Notifiche stile Google Now\n -Icona Batteria Personalizzabile\n -Notifiche nella Lockscreen\n -Impostazioni LED di Notifica\n -Toggle Immersive Mode\n -Quick Settings re-design\n -StatusBar Color Engine\n -Menu di Avvio Avanzato\n -Gestore Connessioni\n -Doppio tap per bloccare lo schermo\n -Volume Espandibile\n -Quick Settings 3.1\n -HazyKeyboard\n -Impostazioni bianche\n -MultiWindows\n -Supporto ad ART\n -HazyApps\n -Heads Up"</string>
+    <string name="hazyromfeatures">Caratteristiche HazyROM:</string>
+    <string name="help_us">Aiutaci!</string>
+    <string name="lowspace">Troppo poco spazio disponibile sul dispositivo</string>
+    <string name="what">COSA?</string>
+    <string name="title_activity_connection_detector">Connessione</string>
+    <string name="title_activity_storage_checker">Controllo Memoria</string>
+    <string name="update">Aggiornamenti</string>
+    <string name="title_activity_update">Aggiornamento</string>
+    <string name="version">Versione</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="stop_service">Termina controllo in Background</string>
+    <string name="theresnointernet">Controlla la tua connessione Internet.</string>
+    <string name="presentation">HazyInstaller permette di installare la HazyROM\n sul tuo dispositivo semplicemente\n premendo un bottone.\nLa HazyROM è una custom ROM\n open source.</string>
+    <string name="warning">Attenzione</string>
+    <string name="closingapp">L\'app verrà chiusa</string>
+    <string name="noupdates">Nessun nuovo aggiornamento</string>
+    <string name="notinstalled">Non hai installato la HazyROM</string>
+    <string name="newupdate">Nuovo aggiornamento trovato!</string>
+    <string name="success">Successo!</string>
+    <string name="dismiss">Annulla</string>
+
+</resources>

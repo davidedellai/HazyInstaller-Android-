@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">  HazyInstaller</string>
+    <string name="features">ROM Features</string>
+    <string name="title_activity_features">HazyROM Features</string>
+    <string name="about">About</string>
+    <string name="notsupported">Device not supported.</string>
+    <string name="error">Error</string>
+    <string name="notrooted">Device has no root permissions.</string>
+    <string name="downloadandinstall">        Download and Install Hazy ROM</string>
+    <string name="romfeatures">\n\n-HRecents\n -Volume Rocker\n -Google Now notifications style\n -Battery Icon Customization\n -Lockscreen Notitfications\n -Notification LED Settings\n -Immersive Mode Toggle\n -Quick Settings re-design\n -StatusBar Color Engine\n -Advanced Boot Menu\n -Connection Manager\n -Double Tap To Sleep\n -Volume Expandable\n -Quick Settings 3.1\n -HazyKeyboard\n -White Settings\n -MultiWindows\n -ART Support\n -HazyApps\n -Heads Up"</string>
+    <string name="hazyromfeatures">HazyROM Features:</string>
+    <string name="title_activity_congratulation">Congratulation</string>
+    <string name="help_us">Help us!</string>
+    <string name="theresnointernet">Check your Internet connection.</string>
+    <string name="lowspace">Low space on your storage</string>
+    <string name="title_activity_connection_detector">Connection</string>
+    <string name="presentation">HazyInstaller can install HazyROM\n on your device simply\n pressing a button.\nHazyROM is an open source \ncustom ROM.</string>
+    <string name="what">WHAT?</string>
+    <string name="title_activity_storage_checker">storageChecker</string>
+    <string name="update">Updates</string>
+    <string name="title_activity_update">updateActivity</string>
+    <string name="version">Versione</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="stop_service">Stop Background Checking</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="warning">Warning</string>
+    <string name="closingapp">The app will be closed</string>
+    <string name="noupdates">No updates found</string>
+    <string name="notinstalled">You didn\'t install HazyROM</string>
+    <string name="newupdate">New Update Available!</string>
+    <string name="success">Success!</string>
+    <string name="dismiss">Dismiss</string>
+
+</resources>

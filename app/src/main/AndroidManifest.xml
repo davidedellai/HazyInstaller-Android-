@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hazy.hazyinstaller"
+    android:screenOrientation="portrait"
+    android:versionCode="2"
+    android:versionName="1.2" >
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="orientation|keyboardHidden"
+        android:icon="@drawable/logohi"
+        android:label="@string/app_name"
+        android:logo="@drawable/logohi"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:icon="@drawable/logohi"
+            android:label="@string/app_name"
+            android:logo="@drawable/logohi"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FeaturesActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:icon="@drawable/logohi"
+            android:label="@string/title_activity_features"
+            android:logo="@drawable/logohi"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".CongratulationActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:icon="@drawable/logohi"
+            android:label="@string/title_activity_congratulation"
+            android:logo="@drawable/logohi"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".updateActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_update"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <service
+            android:name=".UpdateService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+
+        <receiver android:name=".booted" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ.PHONE.STATE" />
+
+</manifest>

@@ -32,6 +32,7 @@ public  class UpdateService extends IntentService {
                             Notification n = new Notification.Builder(getApplication())
                                     .setContentTitle("HazyInstaller")
                                     .setContentText("New Update Available")
+                                    .setAutoCancel(true)
                                     .setSmallIcon(R.drawable.refresh)
                                     .setStyle(new Notification.BigPictureStyle()
                                             .bigPicture(banner))

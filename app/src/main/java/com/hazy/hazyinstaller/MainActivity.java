@@ -184,7 +184,7 @@ public class MainActivity extends Activity {
 
         Thread t = new Thread() {
             public void run() {
-                downloadToCheckVersion("http://hazyrom.net/download/lastversion", "lastversion");
+                downloadToCheckVersion("http://hazyrom.net/download/rom/extra/ota/version", "lastversion");
             }
         }; t.start();
 
@@ -277,13 +277,13 @@ public class MainActivity extends Activity {
 
         Thread t1 = new Thread() {
             public void run() {
-                downloadToCheckVersion2("http://hazyrom.net/download/tabLink", "tabLink");
+                downloadToCheckVersion2("http://hazyrom.net/download/rom/extra/ota/p3100", "tabLink");
             }
         }; t1.start();
 
         Thread t2 = new Thread() {
             public void run() {
-                downloadToCheckVersion2("http://hazyrom.net/download/nexus5Link", "n5Link");
+                downloadToCheckVersion2("http://hazyrom.net/download/rom/extra/ota/hammerhead", "n5Link");
             }
         }; t2.start();
 
@@ -301,7 +301,7 @@ public class MainActivity extends Activity {
 
         Thread t = new Thread() {
             public void run() {
-                downloadToCheckVersion2("http://hazyrom.net/download/s3Link", "s3Link");
+                downloadToCheckVersion2("http://hazyrom.net/download/rom/extra/ota/i9300", "s3Link");
             }
         }; t.start();
 
@@ -313,7 +313,7 @@ public class MainActivity extends Activity {
 
         Thread t3 = new Thread() {
             public void run() {
-                downloadToCheckVersion2("http://hazyrom.net/download/nexus4Link", "n4Link");
+                downloadToCheckVersion2("http://hazyrom.net/download/rom/extra/ota/mako", "n4Link");
             }
         }; t3.start();
 
@@ -729,7 +729,7 @@ public class MainActivity extends Activity {
                 if (openrecovery.exists()) {
                     openrecovery.delete();
                 }
-                new DefaultHttpClient().execute(new HttpGet("http://hazyrom.net/download/hazyinstallerapp/openrecoveryscript"))
+                new DefaultHttpClient().execute(new HttpGet("http://hazyrom.net/download/installer/openrecoveryscript"))
                         .getEntity().writeTo(
                         new FileOutputStream(new File("/sdcard/openrecoveryscript")));
             } catch (Exception e) {

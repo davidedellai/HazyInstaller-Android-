@@ -45,10 +45,6 @@ public class updateActivity extends Activity {
     // private String OnePlusOne = "A0001";
     // private String secondOnePlusOne = "bacon";
 
-    //public static String s3DownloadROM = "http://fs1.d-h.st/download/00139/zHw/hazy-4.4.4-20140905-i9300-Beta_3.zip";
-    //public static String nexus4DownloadROM = "http://fs1.d-h.st/download/00139/5fd/hazy-4.4.4-20140905-mako-Beta_3.zip";
-    //public static String nexus5DownloadROM = "http://fs1.d-h.st/download/00139/6JU/hazy-4.4.4-20140905-hammerhead-Beta_3.zip";
-
     public static String s3DownloadROM() throws Exception {
         FileReader s3 = new FileReader("/sdcard/s3Link");
         BufferedReader buf = new BufferedReader(s3);
@@ -211,7 +207,7 @@ public class updateActivity extends Activity {
                 output.flush();
                 output.close();
                 input.close();
-            } catch (Exception e) { Log.d("Error", e.getMessage());}
+            } catch (Exception e) { Log.d("Error", e.getMessage()); }
 
             /**********************
              * Downloading Script *
@@ -221,7 +217,7 @@ public class updateActivity extends Activity {
                 if (openrecovery.exists()) {
                     openrecovery.delete();
                 }
-                new DefaultHttpClient().execute(new HttpGet("http://hazyrom.net/download/hazyinstallerapp/openrecoveryscriptwithnowipe"))
+                new DefaultHttpClient().execute(new HttpGet("http://hazyrom.net/download/installer/openrecoveryscriptwithnowipe"))
                         .getEntity().writeTo(
                         new FileOutputStream(new File("/sdcard/openrecoveryscript")));
             } catch (Exception e) {

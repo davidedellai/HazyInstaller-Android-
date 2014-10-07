@@ -29,8 +29,9 @@ public class booted extends BroadcastReceiver {
 
         Notification n = new Notification.Builder(context)
                         .setContentTitle("Service started.")
-                        .setContentText("HazyInstaller will check updates every 8 hours.")
+                        .setContentText("Updates will be checked every 8 hours.")
                         .setSmallIcon(R.drawable.ic_action_accept)
+                        .setAutoCancel(true)
                         .setStyle(new Notification.BigPictureStyle()
                                 .bigPicture(banner))
                         .setContentIntent(pIntent).build();
